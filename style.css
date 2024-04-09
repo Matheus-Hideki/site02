@@ -1,0 +1,46 @@
+@font-face { font-family: kanit; src: url('Kanit-Thin.ttf'); }  
+body{
+    background-color: #59A546;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+img { 
+    top: 20%;
+    position: absolute;
+    width:80%;
+    clip: rect(0.001%,0.001%,0.1%,0.1%);
+}
+
+#título{
+    font-family: kanit;
+    color: white;
+    font-size: 380%;
+    position: absolute;
+    top: -3%;
+    
+}
+#tempo{
+    font-family: kanit;
+    color: white;
+    font-size: 380%;
+    position: absolute;
+    top: 37%;
+    
+}
+#descrição{
+    font-family: kanit;
+    color: white;
+    font-size: 150%;
+    position: absolute;
+    top: 80%;
+    
+}
