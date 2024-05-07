@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Cronograma</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
     <img src="circle.png" id="blackCircle"></img>
@@ -13,7 +14,8 @@
     <p id="descrição">Quanto tempo resta para o ano novo.</p>
 
 
-    <square style="position: absolute; left:0%;">
+    <square style="position: absolute; left:-22vw;" id="side_bar">
+    <img src="arrow.png" id="arrow" style="position: absolute; right: -16vw; top: -10vw; transform: scale(0.2);" onclick="clickTaskBar();"></img>
     <p id="cronometro-titulo">Cronômetros  criados</p>
     <a href=""><img src="+.png" id="styled"style="right: 9vw;top:-5%"></img></a>
     <a href=""><img src="-.png" id="styled" style="right: 3vw;top:-5%"></img></a>
